@@ -10,9 +10,9 @@ import cv2
 import matplotlib as plt
 
 print("ho")
-curate_dir = "C:/Users/annea/tf_files/homework_agilent"
+curate_dir = "C:/Users/annea/tf_files/homework"
 print("hi")
-img_path = join("C:/Users/annea/tf_files/prescan_images")
+img_path = join("C:/Users/annea/tf_files/images")
 
 min_class_size = 60
 
@@ -42,7 +42,7 @@ for label in labels:
         pic=f
         A=cv2.imread(os.path.join(cdir,f))
         im=Image.fromarray(A)
-        img_path2="C:/Users/annea/tf_files/prescan_images/"+label
+        img_path2="C:/Users/annea/tf_files/images/"+label
         #img_path2 = os.path.join(img_path,label)
         if not exists(img_path2):
             print('creating %s' % img_path2)
@@ -58,7 +58,4 @@ for label in labels:
 
 
 
-    #for label in labels:
-
-#im=Image.open("C:/Users/annea/tf_files/homework_agilent/blotches/US22502520_254472095944_S01_t1.png")
-#im.save('US22502520_254472095944_S01_t1.jpg') 
+    
