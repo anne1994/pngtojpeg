@@ -1,5 +1,5 @@
 # pngtojpeg
-converting multiple png images in subfolders images to jpg and saving them preserving the file system hierarchy
+converting multiple png images in subfolders to jpg and saving them preserving the file system hierarchy
 
 
 my file hierarchy:
