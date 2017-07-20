@@ -9,12 +9,11 @@ from shutil import copyfile
 import cv2
 #import matplotlib as plt
 
-print("ho")
+
 curate_dir = "C:/Users/annea/tf_files/homework"
-print("hi")
 img_path = join("C:/Users/annea/tf_files/images")
 
-min_class_size = 60
+#min_class_size = 60
 
 if not exists(img_path):
     print('creating %s' % img_path)
