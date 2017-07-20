@@ -9,8 +9,11 @@ from shutil import copyfile
 import cv2
 #import matplotlib as plt
 
-
+##input subfolders with images in each subfolder##### 
 curate_dir = "C:/Users/annea/tf_files/homework"
+
+
+###where the subfolders and their corresponding images are saved to####
 img_path = join("C:/Users/annea/tf_files/images")
 
 #min_class_size = 60
